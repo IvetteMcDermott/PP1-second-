@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Hind&display=swap');
+
+*   {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: hind;
+    font-weight: 200;
+    }
+
+
+
+.styling    {
+        background-color: rgb(245, 223, 245);
+        min-height: fit-content;
+        max-height: fit-content;
+       /* align-items: center;     
+        width: 100%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 2%;*/
+    }
+
+.text-styling   {
+            font-size: 1.5em;
+            color:rgb(192, 48, 108);
+            text-align: center;
+}
+
+#header_section {
+                width: 90%; 
+                margin-top: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding-top: 2%;
+                }
+
+h1, h2  {
+        font-family: "dancing script";
+        font-size: 3em;
+        color:brown;
+        font-weight: 300;
+        }
+
+/*styling for menu*/
+
+#menu   {
+    width:100%;
+    position:relative;
+}
+            
+#menu ul {
+     list-style-type: none;
+     margin: auto;
+    }
+
+#menu li    {
+        margin:auto;
+        display: inline-block;
+        font-size: 1.5em;
+        letter-spacing: 3px;
+        padding: 12px 10px 10px 30px;
+}
+        
+#menu li a {
+    text-decoration: none;
+    color:brown;
+    }
+    
+#menu li a:hover {
+            border-bottom: 2px solid brown;
+            color:brown;
+            }
+
+/*styling the about_us*/
+
+#about_us    {
+    margin: 0 auto;
+    padding: 0;
+    text-align:center;
+    position:relative;
+    background-color:rgb(248, 248, 232);
+    size: 100%;
+}
+
+#about_us h1    {
+padding-top: 2%;
+font-family: "dancing script";
+font-weight: 200;
+font-style: italic;
+font-size: 300%;
+color:brown;
+display:block;
+}
+
+#about_us p     {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: hind;
+    color:brown;
+    text-align: center;
+    }
+
+#prep-img   {
+        padding: 10px 10px;
+        border-radius: 3%;
+        width: 60%;
+        display:block;
+        }
+
+
+
